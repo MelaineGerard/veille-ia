@@ -1,0 +1,23 @@
+baseURL: 'https://melainegerard.github.io/veille-ia'
+languageCode: 'en-us'
+title: 'Veille du Matin'
+theme: 'hugo-theme-stack'
+pagination:
+  pagerSize: 5
+
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+
+    widgets:
+        page:
+            - type: toc
+
+    sidebar:
+        subtitle: L'IA vous livre sur un plateau votre veille du matin
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.webp
